@@ -1,0 +1,2 @@
+#!/binn/bash
+gcc -E $CFILE > C
