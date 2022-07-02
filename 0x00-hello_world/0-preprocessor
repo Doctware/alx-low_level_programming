@@ -1,2 +1,2 @@
-#!/binn/bash
+#!/bin/bash
 gcc -E $CFILE > C
