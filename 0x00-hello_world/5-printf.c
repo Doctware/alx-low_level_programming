@@ -6,8 +6,8 @@
  * Return: return 0 as sucess and 1 as fail
  */
 
-int main(void);
+int main(void)
 {
-	printf("with proper grammer, but the outcome is a pice of art,\n");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
