@@ -1,15 +1,14 @@
 #include "main.h"
 
 /**
- * main - prints '_putchar'
+ * main - prints putchar
  * Discription: prints _putchar
- * Return: return 0 as (success)
+ * Return: return 0 as success
  */
 
 
 int main(void)
 {
-
 		_putchar('_');
 
 		_putchar('p');
