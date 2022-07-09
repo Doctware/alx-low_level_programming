@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - To print fizz buzz
- * @void: 0 argument
- * Return: 0 as success
+ * main - prints fizz buzz
+ * @void: no argument
+ * Return: 0 success
  */
 
 int main(void)
