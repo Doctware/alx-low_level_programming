@@ -4,7 +4,7 @@
 /**
  * _strlen - founction that print the srting length
  * @s: pointer with adress value
- * Retur: @ void
+ * Return: @ void
  */
 
 int _strlen(char *s)
