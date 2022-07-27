@@ -1,4 +1,5 @@
 #!/bin/bash
-gcc -Wall -padentic -Wirror -Wexra -c *.c
+gcc -Wall -Werror -pedantic -Wextra -c *.c
 ar -rc liball.a *.o
+ranlib liall.a
 
