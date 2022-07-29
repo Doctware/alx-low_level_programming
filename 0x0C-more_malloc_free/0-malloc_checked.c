@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * malloc_checked - allocate memory using malloc
+ * malloc_checked - allocate memory using malloc.
  * @b: size to be allocated
  * Return: pointer to allocated memory or exit with 98
  */
