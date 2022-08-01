@@ -2,7 +2,7 @@
 #define foo_H
 
 
-#include <stdio.>
+#include <stdio.h>
 #define PI 3.14159265359
 
 #endif
