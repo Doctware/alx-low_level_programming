@@ -4,7 +4,7 @@
 /**
  * struct dog - A new type discribing dog.
  * @name: The name the dog
- * @age: The age of the dog
+ * @age: The age of the dog.
  * @owner: the owner of the dog
  */
 
