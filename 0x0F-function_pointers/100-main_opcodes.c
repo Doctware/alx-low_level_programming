@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	int bytes, i;
 	char *arr;
 
-	if (argc, i)
+	if (argc != 2)
 	{
 		printf("Error\n");
 		exit(1);
