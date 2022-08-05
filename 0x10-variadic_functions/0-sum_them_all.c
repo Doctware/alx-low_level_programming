@@ -4,6 +4,7 @@
 /**
  * sum_them_all - sum all arguments
  * @n: int, number of undefined arguments
+ *
  * Return: sum of args
  * on error, o is returned.
  */
