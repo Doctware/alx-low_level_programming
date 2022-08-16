@@ -1,5 +1,4 @@
 #include "lists.h"
-#include <stdio.h>
 
 /**
  * print_listint - print elements of linkedlist
@@ -9,15 +8,13 @@
 
 size_t print_listint(const listint_t *h)
 {
-	size_t no_nodes = 0;
+	size_t n_nodes = 0;
 
-	const listint_t *currentv = h;
-
-	while (currentv != NULL)
+	while (h != NULL)
 	{
-		printf("%i\n", currentv->n);
-		currentv = currentv->next;
-		no_nodes++;
+		printf("%d\n", h->n);
+		h = h->next;
+		n_nodes++;
 	}
-	return (no_nodes);
+	return (n_nodes);
 }
