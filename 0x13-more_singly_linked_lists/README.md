@@ -1,2 +1,1 @@
-Learn more about signly linked list
-linkedlist.
+signly linked list 
