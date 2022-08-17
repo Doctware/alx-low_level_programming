@@ -2,7 +2,7 @@
 
 /**
  * insert_nodeint_at_index - inserts a new node
- * at the given position
+ * at the given position.
  * @head: head of list
  * @idx: index of the list where the new node is
  * added.
