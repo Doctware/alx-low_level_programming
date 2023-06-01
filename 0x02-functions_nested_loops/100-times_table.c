@@ -8,14 +8,12 @@
  */
 void print_times_table(int n)
 {
+	int c, d, ans;
+
 	if ((n > 15) || (n < 0))
 	{
 		return;
 	}
-
-	int c, d, ans;
-
-	for (c = 0; c <= n; c++)
 	{
 		for (d = 0; d <= n; d++)
 		{
