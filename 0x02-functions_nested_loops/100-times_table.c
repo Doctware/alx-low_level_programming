@@ -17,7 +17,7 @@ void print_times_table(int n)
 	{
 		for (d = 0; d <= n; d++)
 		{
-			ans = d * c;
+			ans == d * c;
 			printf("%4d", ans);
 			printf(" ,");
 		}
