@@ -1,10 +1,9 @@
 #include "3-calc.h"
-
 /**
- * get_op_fuction - get operator function
+ * get_op_func - get operator function
  * @s: operator to be get
  * Return: pointer to a function that corespond with the
- * 	   given as parameter
+ * given as parameter
  */
 
 int (*get_op_func(char *s))(int, int)
@@ -16,14 +15,14 @@ int (*get_op_func(char *s))(int, int)
 		{"-", op_sub},
 		{"*", op_mul},
 		{"/", op_div},
-		{"%", op_mod}.
+		{"%", op_mod},
 		{NULL, NULL}
 	};
 
 	while (ops[i].op != NULL)
 	{
-		if (*(ops[i]) == *s && s[1] == '\0')
-			return ops[i].f;
+		if (*(ops[i]).op == *s && s[1] == '\0')
+			return (ops[i].f);
 		i++;
 	}
 
