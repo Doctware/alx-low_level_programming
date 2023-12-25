@@ -2,6 +2,8 @@
 #define 3_CALC_H
 
 #include <stdio.h>
+#include <string.h>
+#include <stdlab.h>
 
 /**
  * struct op - struct op
@@ -26,6 +28,6 @@ int op_mod(int a, int b);
 
 /* 3-get_op_func.c prototypes */
 
-int (*get_op_func(char *s))(int , int);
+int (*get_op_func(char *s))(int, int);
 
 #endif /* 3-calc.h */
