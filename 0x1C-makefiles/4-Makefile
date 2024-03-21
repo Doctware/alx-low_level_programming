@@ -11,12 +11,14 @@ ${NAME}: ${OBJ}
         ${CC} ${OBJ} -o ${NAME}
 
 clean:
-	${RM}  *~ ${NAME}
+	${RM} ${NAME} ${OBJ} *~
 
 oclean:
 	${RM} ${OBJ}
 
-fclean: clean oclean
+fclean: clean
+	${RM} ${NAME}
 
-re: oclean all
+re: fclean all
 
+.PHONY: all clean oclean fclean re
