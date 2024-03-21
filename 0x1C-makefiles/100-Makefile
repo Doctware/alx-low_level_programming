@@ -1,0 +1,23 @@
+CC = gcc
+SRC = main.c school.c
+NAME = school
+
+all: $(NAME)
+
+$(NAME): $(SRC:.c=.o)
+	$(CC) $(SRC:.c=.o) -o $(NAME)
+
+%.o: %.c m.h
+	$(CC) -c $< -o $@ -Wall -Werror -Wextra -pedantic
+
+clean:
+	$(RM) $(NAME) *~ *#
+	$(RM) $(SRC:.c=.o)
+
+oclean:
+	$(RM) $(SRC:.c=.o)
+
+fclean: clean
+	$(RM) $(NAME)
+
+re: fclean all
