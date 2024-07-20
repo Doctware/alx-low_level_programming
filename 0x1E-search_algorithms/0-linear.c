@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * linear_serch - this function search for a value in an array of integer
+ * linear_search - this function search for a value in an array of integer
  * @array: pointer to the first elem
  * @size: the size of the array
  * @value: valu to be search
